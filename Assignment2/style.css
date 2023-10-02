@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1634979930354-cefa3d70287b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #c92a24;
+}
+
+#time, #searchResults {
+    display: none;
+}
+
+
+#Title {
+    font-family: 'Tahoma';
+    font-size: 80px;
+}
+
+/*input box code taken from freefrontend.com*/
+input[type=text] {
+
+    font-size: 20pt;
+    appearance: none;
+    border: none;
+    outline: none;
+    border-bottom: .2em solid #E91E63;
+    background-color: #e69d1f;
+    border-radius: .2em .2em 0 0;
+    padding: .4em;
+    color: #c92a24;
+}
+
+button {
+    height: 20px;
+    border: none;
+    color: #e69d1f;
+    background-color: #c73a34;
+}
